@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+
+  <title>A Little World for Gentleman 💗</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="background-hearts" id="hearts"></div>
+  <div class="sparkles" id="sparkles"></div>
+
+  <header class="topbar">
+    <div class="brand">♡ A Little World ♡</div>
+    <button id="musicBtn" class="music-btn">♫ Play Music</button>
+  </header>
+
+  <audio id="bgMusic" loop>
+    <source src="lofi.mp3" type="audio/mpeg">
+  </audio>
+
+  <main class="app">
+
+    <div class="progress-area">
+      <div class="progress-track">
+        <div id="progressBar"></div>
+      </div>
+      <p id="pageCount">Page 1 of 9</p>
+    </div>
+
+    <!-- PAGE 1 -->
+    <section class="page active" id="page1">
+
+      <p class="eyebrow">A LITTLE SURPRISE FOR YOU</p>
+
+      <div class="welcome-icon">🎀</div>
+
+      <h1>Hellooo,<br>Gentleman!</h1>
+
+      <p class="description">
+        Aapke liye kuch chhota sa banaya hai.
+        So please, smile karke open kariyega.
+        No skipping! 😤💕
+      </p>
+
+      <div class="envelope" id="envelope">
+        <div class="envelope-paper">A little surprise<br>just for you ♡</div>
+        <div class="envelope-flap"></div>
+        <div class="envelope-heart">♥</div>
+      </div>
+
+      <p class="hint">Tap the envelope ✨</p>
+
+      <button class="next-btn" data-next="2">
+        Let's Begin ♡
+      </button>
+
+    </section>
+
+
+    <!-- PAGE 2 -->
+    <section class="page" id="page2">
+
+      <p class="eyebrow">A LITTLE LOVE NOTE</p>
+
+      <h2>Just For You 💌</h2>
+
+      <div class="letter-card">
+
+        <div class="letter-decoration">🌷</div>
+
+        <p>
+          Gentleman,
+          <br><br>
+          Aapko pata hai? Aapse baat karna meri
+          favourite little happiness mein se ek hai.
+          <br><br>
+          Kabhi kabhi bas aapka ek message hi
+          kaafi hota hai mera mood achha karne ke liye.
+          <br><br>
+          Aapki baatein, aapka andaaz aur
+          aapki chhoti-chhoti efforts...
+          pata nahi kab itni special ho gayi.
+          <br><br>
+          Bas aise hi haste rahiye,
+          aur mujhe bhi hasate rahiye.
+          <br><br>
+          Because your smile is kinda my favourite. 🤍
+        </p>
+
+        <div class="signature">Hoor-e-Pareshan ♡</div>
+
+      </div>
+
+      <button class="next-btn" data-next="3">
+        Next Surprise 🌸
+      </button>
+
+    </section>
+
+
+    <!-- PAGE 3 -->
+    <section class="page" id="page3">
+
+      <p class="eyebrow">A QUESTION FROM MY HEART</p>
+
+      <h2>But Why Me? 🥹</h2>
+
+      <div class="question-card">
+
+        <div class="big-question">?</div>
+
+        <p>
+          Achha ek baat bataiye...
+          <br><br>
+          Aapne mujhe hi kyun choose kiya?
+          <br><br>
+          Mujhme itne saare flaws hain.
+          Main overthink karti hoon, chhoti-chhoti
+          baaton par emotional ho jaati hoon,
+          kabhi childish toh kabhi extra nakhre wali.
+          😭
+          <br><br>
+          Aur mera past bhi koi fairy tale nahi raha.
+          Thodi complicated si story hai meri.
+          <br><br>
+          Toh phir aapko mujhme aisa kya special laga?
+          Koi secret reason hai kya, Gentleman? 👀
+          <br><br>
+          Waise mujhe toh lagta hai aapki choice
+          thodi hatke hai... itni saari options mein
+          aapko ye namooni pasand aa gayi! 😂🎀
+          <br><br>
+          But jokes apart, I really like
+          the way you chose me. 💗
+        </p>
+
+      </div>
+
+      <p class="small-note">
+        P.S. Is sawaal ka answer pending rahega! 🤭
+      </p>
+
+      <button class="next-btn" data-next="4">
+        Okay, Next! 😂
+      </button>
+
+    </section>
+
+
+    <!-- PAGE 4 -->
+    <section class="page" id="page4">
+
+      <p class="eyebrow">A FEW IMPORTANT RULES</p>
+
+      <h2>Some Rules For Gentleman 😂</h2>
+
+      <div class="rules-card">
+
+        <div class="rule">🌷 Mujhe ignore karna strictly prohibited.</div>
+
+        <div class="rule">🎮 Ludo mein jaan-bujhkar harana mana hai!</div>
+
+        <div class="rule">🧸 Mere nakhre tolerate karne honge.</div>
+
+        <div class="rule">💌 Kabhi kabhi extra attention bhi deni hogi.</div>
+
+        <div class="rule">🥹 Meri silly baaton ko patiently sunna hoga.</div>
+
+        <div class="rule">👑 Aur mujhe princess treatment chahiye. Bas!</div>
+
+      </div>
+
+      <p class="small-note">
+        Terms & conditions non-negotiable hain. 😌
+      </p>
+
+      <button class="next-btn" data-next="5">
+        Accepted? Continue 😂
+      </button>
+
+    </section>
+
+
+    <!-- PAGE 5 -->
+    <section class="page" id="page5">
+
+      <p class="eyebrow">THINGS I ADORE</p>
+
+      <h2>Little Things About You 🤍</h2>
+
+      <p class="description">
+        Kuch baatein hain jo shayad aapko
+        khud bhi nahi pata...
+      </p>
+
+      <div class="memory-grid">
+
+        <div class="memory">
+          <span>💬</span>
+          <h3>Your Conversations</h3>
+          <p>Aapki baatein, meri favourite notification.</p>
+        </div>
+
+        <div class="memory">
+          <span>🌙</span>
+          <h3>Your Serious Side</h3>
+          <p>Jab aap apne dreams ke liye serious hote hain.</p>
+        </div>
+
+        <div class="memory">
+          <span>🧸</span>
+          <h3>Your Little Ways</h3>
+          <p>Aapke chhote-chhote gestures.</p>
+        </div>
+
+        <div class="memory">
+          <span>🤭</span>
+          <h3>Your Teasing</h3>
+          <p>Waise mujhe tang karna band kariyega!</p>
+        </div>
+
+      </div>
+
+      <button class="next-btn" data-next="6">
+        One More Little Thing 🌷
+      </button>
+
+    </section>
+
+
+    <!-- PAGE 6 -->
+    <section class="page" id="page6">
+
+      <p class="eyebrow">A LITTLE PRAYER FOR YOU</p>
+
+      <div class="moon">🌙</div>
+
+      <h2>A Little Dua For You</h2>
+
+      <div class="dua-card">
+
+        <p>
+          Allah aapke har ache khwab ko
+          khoobsurat haqeeqat banaye.
+          <br><br>
+          Aapko sukoon, sehat, kamyabi,
+          barkat aur bepanah khushiyan de.
+          <br><br>
+          Aapki mehnat mein barkat ho,
+          aapke dil ko hamesha sukoon mile
+          aur aapki har nek dua qubool ho.
+          <br><br>
+          Ameen. 🤍
+        </p>
+
+        <div class="signature">Always in my duas ♡</div>
+
+      </div>
+
+      <button class="next-btn" data-next="7">
+        A Secret Is Waiting 💌
+      </button>
+
+    </section>
+
+
+    <!-- PAGE 7 -->
+    <section class="page" id="page7">
+
+      <p class="eyebrow">A TINY LITTLE SECRET</p>
+
+      <h2>Something Just For You 🤭</h2>
+
+      <p class="description">
+        Ek chhoti si secret baat hai...
+        button dabaiye!
+      </p>
+
+      <div class="secret-envelope" id="secretEnvelope">
+        <span>💌</span>
+      </div>
+
+      <button class="next-btn" id="secretBtn">
+        Reveal My Secret ♡
+      </button>
+
+      <div class="secret-message hidden" id="secretMessage">
+
+        <h2>Guess What? 💗</h2>
+
+        <p>
+          Aap mere favourite notification
+          ban chuke hain.
+          <br><br>
+          Ab ismein meri kya galti? 😂
+          <br><br>
+          Aur haan, kabhi kabhi bina kisi
+          reason ke bhi aap yaad aa jaate hain.
+          🤭
+        </p>
+
+        <div class="signature">Hoor-e-Pareshan 🎀</div>
+
+      </div>
+
+      <button class="next-btn" id="secretNext" data-next="8">
+  A Little Apology 💌
+      </button>
+    </section>
+
+
+<!-- PAGE 8: A LITTLE APOLOGY -->
+<section class="page" id="page8">
+
+  <p class="eyebrow">A LITTLE SOMETHING FROM MY HEART</p>
+
+  <div class="welcome-icon">💌</div>
+
+  <h2>One Little Apology...</h2>
+
+  <p class="description">
+    Kuch baatein hain jo aapse kehni thi,
+    Gentleman. 🥺
+  </p>
+
+  <div class="letter-card">
+
+    <div class="letter-decoration">🌷</div>
+
+    <p>
+      Dear Gentleman, 🥺
+      <br><br>
+
+      I know, I know… mai kuch dino se kuch zyada hi
+      alag behave kar rahi hoon. Bematlab gussa karti hoon,
+      chidchidi ho gayi hoon aur aapko taunts bhi maarti rehti hoon.
+      <br><br>
+
+      But believe me, mai aisi bilkul nahi hoon,
+      Mr. Gentleman.
+      <br><br>
+
+      Pehle aapka time, attention aur pyaar mil jaata tha.
+      Lekin ab kuch dino se aap busy hain aur mujhe utna
+      time nahi de paa rahe. Mujhe samajhna chahiye ki
+      aapki bhi apni responsibilities hain, apni padhai
+      aur kaam hain. Lekin pata nahi kyun, mai samajhne
+      ke bajaye pagal ki tarah aap par hi gussa karne lagti hoon.
+      <br><br>
+
+      You are right, mai sach mein buddhu hoon. 🤦🏻‍♀️
+      <br><br>
+
+      Mujhe apne behaviour ka regret ho raha hai.
+      Mujhe aapse aise baat nahi karni chahiye thi,
+      especially jab aap meri life mein itne special hain.
+      <br><br>
+
+      Mai aapse naraz ho sakti hoon, aapko miss kar
+      sakti hoon, aapke time ki expectation bhi rakh
+      sakti hoon… but iska matlab ye toh nahi ki
+      apni saari frustration aap par nikaal doon.
+      <br><br>
+
+      I am sorry, Gentleman.
+      <br><br>
+
+      Bas itna chahti hoon ki aap meri in kuch dino
+      wali chidchidhi version ko hi meri poori
+      personality mat samajh lijiyega.
+      <br><br>
+
+      Aapki wohi purani Hoor-e-Pareshan abhi bhi
+      yahin hai… thodi si pagal, thodi si childish,
+      bahut si emotional aur aapko tang karne mein expert. 🤭❤️
+      <br><br>
+
+      With a tiny apology,
+    </p>
+
+    <div class="signature">
+      Your Hoor-e-Pareshan ♡
+    </div>
+
+  </div>
+
+  <button class="next-btn" data-next="9">
+    One Last Thing 💗
+  </button>
+
+</section>
+
+
+
+<!-- PAGE 9: FINAL SURPRISE -->
+<section class="page" id="page9">
+
+  <p class="eyebrow">ONE LAST THING...</p>
+
+  <div class="final-heart">💗</div>
+
+  <h1>A Little Wish</h1>
+
+  <div class="final-card">
+
+    <p>
+      Gentleman,
+      <br><br>
+      Aap meri story ka ek bahut pyara chapter hain.
+      <br><br>
+      I don't know what tomorrow holds,
+      but I genuinely wish that life brings
+      you beautiful moments, endless smiles
+      and everything your heart prays for.
+      <br><br>
+      Stay the way you are,
+      keep chasing your dreams
+      and never forget to smile.
+      <br><br>
+      Aur haan... apni is Hoor-e-Pareshan
+      ko zyada tang mat kariyega! 😭
+    </p>
+
+    <div class="signature">
+      With love,<br>
+      Hoor-e-Pareshan ♡
+    </div>
+
+  </div>
+
+  <p class="ending">You reached the end, Gentleman! 🎀</p>
+
+  <button class="next-btn" id="restartBtn">
+    Read Again ♡
+  </button>
+
+</section>
+<script src="script.js"></script>
+</body>
+</html>
